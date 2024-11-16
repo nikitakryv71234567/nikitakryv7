@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+h1,
+p,
+div {
+  text-align: center;
+}
+p {
+  font-size: 25px;
+}
+p {
+  background-color: rgb(175, 255, 0);
+}
+body {
+  animation: call 10s linear infinite;
+}
+
+@keyframes call {
+  0% {
+    background-color: rgb(0, 0, 0);
+  }
+  25% {
+    background-color: darkgrey;
+  }
+  50% {
+    background-color: rgb(51, 50, 50);
+  }
+  75% {
+    background-color: gray;
+  }
+  100% {
+    background-color: black;
+  }
+}
+.container {
+  background-color: rgb(175, 255, 0);
+  border-radius: 15px;
+}
+
+.roblox {
+  margin: 0 auto;
+  display: block;
+}
+.back {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: bisque;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid black;
+  transition: 0.3s;
+}
+.back:hover {
+  background-color: brown;
+  color: aliceblue;
+}
